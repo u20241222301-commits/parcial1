@@ -30,3 +30,8 @@ justify-content: center;
 .vertical{
     display: block;
 }
+.iconos{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}

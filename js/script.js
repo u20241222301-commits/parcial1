@@ -6,8 +6,8 @@ function alerta(){
     alert("su nombre es: "+nombre.value);
     }
 function cambiartamañodeletra(){
- = ;
-}
+      document.getElementById("p").style.fontSize = "30px"; 
+    }
 function cambiarcolorletra(){
-color = "pink";
-}
+document.body.style.accentColor= "pink";
+    }
