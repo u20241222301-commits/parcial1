@@ -1,0 +1,22 @@
+header{
+  color: white;
+  background-color: rgba(9, 9, 9, 0.749);
+  padding: 3px;
+  margin: 0px;
+  text-align: center;
+}
+section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+}
+h4{
+text-align: center;
+justify-content: center;
+}
+.centrar{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
