@@ -20,3 +20,13 @@ justify-content: center;
     align-items: center;
     text-align: center;
 }
+.horizontal{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    justify-content: center;
+}
+.vertical{
+    display: block;
+}

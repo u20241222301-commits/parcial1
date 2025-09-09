@@ -48,17 +48,58 @@
 </nav>
 
 <div class="centrar">
-    <h5 class="card-title">por favor ingrese sus credenciales para acceder al sistema</h5><br>
-    <label for ="usuario">usuario:</label>
-    <input type="text" placeholder="usuario" id="usuario" name="usuario"><br><br>
-    <label for="contraseña">contraseña:</label>
-    <input type="password" placeholder="contraseña" id="contraseña" name="contraseña"><br><br>
-    <button onclick="mostrarenconsola()">Log in</button>
-    <a href="formulario.html"><button>Sign up</button></a>
-    <a href="index.html"><button>cancelar</button></a>
-    </div>
-  </div>
+    <h4>ingresar los datos a registrar</h4>
+    <div class="horizontal">
+    <label for="nombres">nombres:</label>
+    <input type="text" placeholder="nombres" id="nombres" name="nombres">
+    <label for="apellidos">apellidos:</label>
+    <input type="text" placeholder="apellidos" id="apellidos" name="apellidos">
 </div>
+<div class="horizontal">
+    <label for="estrato   ">estrato:</label>
+    <input type="number" min="1" max="6" placeholder="estrato" id="estrato" name="estrato">
+    <label for="fecha de nacimiento">fecha de nacimiento:</label>
+    <input type="date" placeholder="fecha de nacimiento" id="fecha" name="fecha">
+    <label for="grupo sanguineo">grupo sanguineo:</label>
+       <select name="Grupo sangguineo" id="grupo_sanguineo">
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select>
+</div>
+
+<div class="horizontal">
+    <br/><br/>
+    <label for="genero">Genero: </label><br/>
+    <div class ="vertical">
+    <label for="femenino">Femenino: </label>
+    <input type="radio" name="genero" id="femenino" placeholder="F"/><br><br>
+    <label for="masculino">Masculino: </label>
+    <input type="radio" name="genero" id="masculino" placeholder="M"/><br><br>
+    </div>
+
+    <br/><br/>
+
+    <label for="deporte">Actividades favoritas: </label><br/>
+    <div class ="vertical">
+    <label for="futbol">futbol</label>
+    <input type="checkbox" name="deporte" id="futbol" value="1" /><br><br>
+    <label for="baloncesto">baloncesto</label>
+    <input type="checkbox" name="deporte" id="baloncesto" value="2" /><br><br>
+    <label for="voleibol">voleibol</label>
+    <input type="checkbox" name="deporte" id="voleibol" value="3" /><br><br>
+    <label for="ciclismo">ciclismo</label>
+    <input type="checkbox" name="deporte" id="ciclismo" value="4" /><br><br>
+    </div>
+</div>
+
+<button onclick="alerta()">registrar</button></a>
+<a href="noticias.html"><button>cancelar</button></a>
 
 </body>
 </html>
